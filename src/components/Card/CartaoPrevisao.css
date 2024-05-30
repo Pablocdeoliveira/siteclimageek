@@ -1,0 +1,15 @@
+.cartao-previsao {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 180px;
+  }
+  .previsoes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

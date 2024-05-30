@@ -1,12 +1,38 @@
+/* App.css */
 .App {
   text-align: center;
-  background-color: rgb(9, 188, 216);
-};
+  background-color: #E6E6FA; /* Cor lilás */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6A5ACD; /* Cor roxo mais escuro para contraste */
+  color: white;
+  cursor: pointer;
+}
 
+button:hover {
+  background-color: #483D8B; /* Cor roxo mais escuro para hover */
+}
 
-
-
-
+.previsoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
 
