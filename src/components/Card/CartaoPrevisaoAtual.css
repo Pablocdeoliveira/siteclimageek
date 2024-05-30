@@ -1,18 +1,17 @@
 /* components/Card/CartaoPrevisaoAtual.css */
 .cartao-previsao-atual {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px 0;
-    text-align: center;
-    background-color: #D8BFD8; /* Cor lilás mais claro */
-  }
-  
-  .cartao-previsao-atual h2 {
-    margin: 0 0 8px;
-  }
-  
-  .cartao-previsao-atual p {
-    margin: 4px 0;
-  }
-  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.cartao-previsao-atual h2 {
+  margin: 0 0 8px;
+}
+
+.cartao-previsao-atual p {
+  margin: 4px 0;
+}
